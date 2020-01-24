@@ -1,7 +1,11 @@
 main {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 5rem 0 0 10rem;
+}
+
+section {
+    margin-bottom: 5rem;
 }
 
 .section-body {
@@ -12,9 +16,19 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.row {
+    display: flex;
+}
+
+.sweets {
+    margin-left: 5rem;
 }
 
 .block {
+    margin-top: 3rem;
     margin-right: 5rem;
 }
 
@@ -33,5 +47,11 @@ main {
     .prices {
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
     }
+}
+
+img {
+    width: 55vw;
+    margin-right: 5rem;
 }

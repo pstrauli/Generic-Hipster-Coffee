@@ -24,8 +24,7 @@ $darkerGrey: #949494; // for MENU links
 }
 
 body {
-  
-  
+  position: relative;
 }
 
 //HEADER
@@ -67,18 +66,7 @@ header {
   }
 }
 
-// FOOTER
-
-footer {
-  background-color: $secondaryColor;
-  margin: 0;
-  min-height: 20vh;
-  position: relative;
-  
-  > nav {
-    margin: 0;
-  }
-}
+// HEADINGS
 
 h1 {
   text-transform: uppercase;
@@ -94,4 +82,41 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
+
+// FOOTER
+
+footer {
+  background-color: $secondaryColor;
+  margin: 0;
+  min-height: 20vh;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  
+  > nav {
+    margin: 4.5rem 0;
+    text-align: center;
+
+    > a {
+      color: $blue;
+      margin: 0 1rem;
+    }
+  }
+}
+
+.hashtag {
+  color: $grey;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.follow {
+  margin-top: 1rem;
+  color: $grey;
+  a {
+    color: $blue;
+  }
+}
+
 

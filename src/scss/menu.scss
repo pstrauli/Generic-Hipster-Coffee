@@ -1,20 +1,33 @@
 main {
     display: flex;
     flex-direction: column;
+    padding: 3rem;
 }
 
-section {
+.section-body {
     display: flex;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .block {
-    max-width: 100px;
+    margin-right: 5rem;
+}
+
+.block-body {
+    width: 20rem;
+
     display: flex;
     justify-content: space-between;
 
     .items {
         display: flex;
         flex-direction: column;
+        padding-right: 3rem;
     }
 
     .prices {

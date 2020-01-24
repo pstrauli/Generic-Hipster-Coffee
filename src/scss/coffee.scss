@@ -12,6 +12,27 @@ $darkerGrey: #949494; // for MENU links
 
 // MAIN CSS
 
-header {
+.onCoffeePage {
+  color: black;
+}
+
+main {
+  width: 80vw;
+  margin: 2rem auto 0;
+  // background-color: gold;
+}
+
+.coffee-info {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.coffee-item {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  img {
+    object-fit: contain;
+  }
   
 }

@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
-    padding: 5rem 0 0 10rem;
+    padding: 5rem 0 0 20rem;
 }
 
 section {
@@ -52,6 +52,11 @@ section {
 }
 
 img {
-    width: 55vw;
-    margin-right: 5rem;
+    margin-left: 10rem;
+}
+
+.machine {
+margin: 0 0 -50px 20rem;
+width: 55vw;
+z-index: 2;
 }

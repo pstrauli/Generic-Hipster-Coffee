@@ -1,0 +1,97 @@
+@import "colors.scss";
+
+// VARIABLES - Colors
+
+$primaryColor: #f8f9fa; // for HEADER
+
+$secondaryColor: #343a40; // for FOOTER
+
+$blue: #0099ff; // for FOOTER NAV text
+
+$grey: #ced4da;  // for FOOTER text
+
+$darkerGrey: #949494; // for MENU links
+
+// *
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  // background-color: $blue;
+}
+
+body {
+  
+  
+}
+
+//HEADER
+
+header {
+  width: 100%;
+  background-color: $primaryColor;
+
+  > div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    > img {
+      width: 6rem;
+    }
+
+    > nav {
+      align-self:center;
+     
+
+      > a {
+        margin: 0 1rem;
+        text-decoration: none;
+        color: $darkerGrey;
+        text-align: center;
+      }
+
+      > a:hover {
+        color: $blue;
+      }
+
+      .onThisPage {
+        color: black;
+      }
+    }
+  }
+}
+
+// FOOTER
+
+footer {
+  background-color: $secondaryColor;
+  margin: 0;
+  min-height: 20vh;
+  position: relative;
+  
+  > nav {
+    margin: 0;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
